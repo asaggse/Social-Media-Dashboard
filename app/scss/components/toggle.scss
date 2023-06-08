@@ -41,7 +41,10 @@
         width: 100%;
         top: 0;
         border-radius: rem(12);
-        background: var(--toggle-bg);
+        // background: var(--toggle-bg);
+        background: linear-gradient(225deg,
+                var(--toggle-bg-end) 0%,
+                var(--toggle-bg-start) 98.02%);
         pointer-events: none;
     }
 
